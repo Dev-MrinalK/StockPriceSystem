@@ -1,0 +1,24 @@
+---
+- name: Update web servers
+  #As per your choice
+  hosts: webservers 
+  remote_user: root
+
+  tasks:
+  - name: execute install script
+    script: get-pip.py
+
+  - name: create-env
+    dependencies:
+    - python>=3.5
+    - anaconda
+    - pip
+    - pip:
+      - yfinance
+      - matplotlib==2.0.0
+
+  - name: execute AnsibleTask script
+    script: AnsibleTask.py
+
+  
+
