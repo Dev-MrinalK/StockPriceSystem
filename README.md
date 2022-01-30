@@ -47,10 +47,10 @@ cmd> **python -m usecase**
 
 Result:
       plotted graph with     
-    Records 
-    Best Day 
-    Worst Day 
-    Higest Price 
+    Records , 
+    Best Day , 
+    Worst Day , 
+    Higest Price , 
     Lowest Price on the graph plot.
 
 
