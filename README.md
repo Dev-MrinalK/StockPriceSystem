@@ -43,7 +43,12 @@ Set all required variable in ETL.py
 cmd> python -m usecase
 
 Result:
-      plotted graph
+      plotted graph with     
+    Records 
+    Best Day 
+    Worst Day 
+    Higest Price 
+    Lowest Price on the graph plot.
 
 
 
