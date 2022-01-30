@@ -20,7 +20,7 @@ class Variables:
     start='2010-01-01'
     end='2021-12-31'
     stock='AAPL'
-    database = "C:\\Users\\sneha\\Desktop\\findata.db"
+    database = "..\\findata.db"
 
 
 
